@@ -1,0 +1,123 @@
+body {
+    background-color: #8ECAE6;
+    font-family: "Quicksand";
+    font-size: 26px;
+    font-weight: bold;
+    /* border: 5px double #023047; */
+}
+
+h1, h2 {
+    font-family: "Abril Fatface";
+    text-shadow: 2px 2px #fb8500;
+    text-indent: 25px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 20px 20px;
+    margin: 0%;
+}
+
+li {
+    margin: 10px 0%;
+}
+
+a.nav {
+    text-decoration: none;
+}
+
+a.nav:visited, a.nav:link {
+    color: black;
+}
+
+a.nav:hover {
+    color: #fb8500;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+img.left_float {
+    margin: 10px;
+    width: 400px;
+    float: left;
+}
+
+img.right_float {
+    margin: 10px;
+    width: 400px;
+    float: right;
+}
+
+img.logo {
+    width: 200px;
+    /* background-color: #ffb703; */
+}
+
+img.gallery {
+    width: 400px;
+    margin: 10px;
+}
+
+img.gallery:hover {
+    opacity: 0.6;
+}
+
+p {
+    font-size: 22px;
+    text-align: justify;
+    text-indent: 25px;
+}
+
+label {
+    font-size: 22px;
+}
+
+textarea {
+    height: 100px;
+    font-size: 22px;
+    font-family: "Quicksand";
+}
+
+button {
+    width: fit-content;
+    font-size: 22px;
+    background-color: #FFB703;
+    border-radius: 10px;
+
+}
+
+input.newsletter {
+    font-size: 22px;
+}
+
+.grid_div {
+    display: grid;
+    /* grid-template-columns: 1fr 1fr; */
+}
+
+.grid_div_input {
+    display: flex;
+    justify-content: flex-start;
+}
+
+fieldset {
+    width: fit-content;
+}
+
+#headerWrapper {
+    background-color: #FFB703;
+    margin: 50px 25px;
+    width: 200px;
+    height: min-content;
+    position: fixed;
+    top: 0%;
+}
+
+#topPage, #newsletter, #useful_links, #gallery, #about {
+    margin: 25px 25px 250px 250px;
+    border-bottom: 5px double #023047;
+}
+
+#topNav {
+    text-align: center;
+}
