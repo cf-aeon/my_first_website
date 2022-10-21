@@ -58,8 +58,13 @@ img.gallery {
     margin: 10px;
 }
 
-img.gallery:hover {
+img.gallery:hover, img.social_media_logo:hover, img.logo:hover {
     opacity: 0.6;
+}
+
+img.social_media_logo {
+    width: 40px;
+    height: 40px;
 }
 
 p {
@@ -102,6 +107,12 @@ input.newsletter {
 
 fieldset {
     width: fit-content;
+}
+
+div#SocialMediaButtons {
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
 }
 
 #headerWrapper {
